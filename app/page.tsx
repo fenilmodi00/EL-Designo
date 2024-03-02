@@ -45,6 +45,7 @@ const colorPalettes = [
   "Complementary",
   "Analogous",
   "Triadic",
+  "Dark",
 ];
 
 const acceptedFileTypes = {
