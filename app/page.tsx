@@ -39,6 +39,13 @@ type ImageOutputProps = ImageAreaProps & {
 
 const themes = ["Modern", "Vintage", "Minimalist", "Professional"];
 const rooms = ["Living Room", "Dining Room", "Bedroom", "Bathroom", "Office"];
+const colorPalettes = [
+  "Neutral",
+  "Monochromatic",
+  "Complementary",
+  "Analogous",
+  "Triadic",
+];
 
 const acceptedFileTypes = {
   "image/jpeg": [".jpeg", ".jpg", ".png"],
@@ -237,6 +244,7 @@ export default function HomePage() {
   const [base64Image, setBase64Image] = useState<string | null>(null);
   const [theme, setTheme] = useState<string>(themes[0]);
   const [room, setRoom] = useState<string>(rooms[0]);
+  const [colorPalette, setcolorPalette] = useState<string>(colorPalettes[0]);
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<string | null>("");
   const [file, setFile] = useState<File | null>(null);
@@ -368,6 +376,12 @@ export default function HomePage() {
           options={rooms}
           selected={room}
           onChange={setRoom}
+        />
+        <SelectMenu
+          label="color palette"
+          options={colorPalettes}
+          selected={colorPalette}
+          onChange={setcolorPalette}
         />
       </section>
 

@@ -8,14 +8,5 @@ import { DesktopSidebar } from "./desktop-sidebar";
 export function Sidebar() {
   const [sidebarOpen, setSidebarOpen] = useState<boolean>(false);
 
-  return (
-    <>
-      <MobileSidebar
-        sidebarOpen={sidebarOpen}
-        setSidebarOpen={setSidebarOpen}
-      />
-      <DesktopSidebar />
-      <Header onClick={() => setSidebarOpen(true)} />
-    </>
-  );
+  return <></>;
 }
