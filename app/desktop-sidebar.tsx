@@ -12,7 +12,7 @@ export function DesktopSidebar() {
       <div className="flex grow flex-col gap-y-5 overflow-y-auto bg-gray-900 px-6">
         <div className="flex h-16 shrink-0 items-center">
           <h1 className="bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 bg-clip-text text-xl font-semibold text-transparent">
-            Interior Designer
+            Design Your Room
           </h1>
         </div>
 
@@ -43,6 +43,12 @@ export function DesktopSidebar() {
             </li>
           </ul>
         </nav>
+        {/* Footer */}
+        <footer className="flex-shrink-0 py-4">
+          <p className="text-sm text-gray-400">
+            Team Name: Nothing | <br /> College Name: Ganpat University
+          </p>
+        </footer>
       </div>
     </aside>
   );
