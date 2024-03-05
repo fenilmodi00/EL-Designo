@@ -1,7 +1,9 @@
 import { NextResponse } from "next/server";
 import Replicate from "replicate";
+import { runGemini } from "../gemini/route";
 
 export async function POST(request: Request) {
+  runGemini;
   // 1. Get request data (in JSON format) from the client
   const req = await request.json();
 
