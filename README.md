@@ -1,4 +1,4 @@
-## Interior Designer AI
+## Interior Designer AI Using Gemini AI
 
 ![Interior design image](public/app-screenshot.png)
 
@@ -8,14 +8,14 @@
 
 In your Terminal app
 
-- Type `git clone git@github.com:siegblink/interior-designer-ai.git`
-- Or type `git clone https://github.com/siegblink/interior-designer-ai.git`
+- Type `git clone git@github.com/:fenilmodi00/EL-Designo-Gemnin.git`
+- Or type `git clone https://github.com/fenilmodi00/EL-Designo-Gemnin.git`
 
 ### 2. Install the project dependencies
 
 Go to the project's directory
 
-- Type `cd interior-designer-ai`
+- Type `cd EL-Designo-Gemini`
 - Then, `npm install`
 
 ### 3. Create an account at [replicate](https://replicate.com/)
